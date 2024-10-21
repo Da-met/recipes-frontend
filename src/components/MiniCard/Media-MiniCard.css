@@ -1,0 +1,123 @@
+@media (max-width: 1050px) {
+    .mini-card h2 {
+        font-size: 18px;
+    }
+
+    .mini-card_btn span {
+        font-size: 13px;
+        
+    }
+
+    .mini-card_btn  {
+        align-items: center;
+    }
+
+    .mini-card_logo { 
+        height: 280px;
+    }
+
+
+
+    /* ------------------------------ */
+    
+
+
+}
+
+@media (max-width: 950px) {
+    .mini-card_logo { 
+        height: 220px;
+    }
+
+    .mini-card_btn span {
+        font-size: 12px;
+    }
+
+    .mini-card_active-btn {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 830px) {
+    .mini-card {
+        padding: 15px 50px 20px 50px;
+    }
+
+    .mini-card_logo { 
+        height: 350px;
+    }
+
+}
+
+@media (max-width: 730px) {
+    .mini-card {
+        padding: 15px 40px 20px 40px;
+    }
+
+    .mini-card_logo { 
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 630px) {
+    .mini-card {
+        padding: 15px 30px 20px 30px;
+    }
+
+    .mini-card_logo { 
+        height: 250px;
+    }
+}
+
+@media (max-width: 540px) {
+    .mini-card {
+        padding: 10px 20px 15px 20px;
+    }
+
+    .mini-card_logo { 
+        height: 220px;
+    }
+
+    .mini-card_views-count {
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 490px) {
+    .mini-card {
+        padding: 8px 15px 10px 15px;
+    }
+
+    .mini-card_logo { 
+        height: 220px;
+    }
+
+    .mini-card h2 {
+        font-size: 16px;
+    }
+
+    .mini-card_views-count {
+        font-size: 11px;
+    }
+
+}
+
+
+@media (max-width: 430px) {
+    .mini-card {
+        padding: 8px 12px 10px 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    .mini-card_active-btn {
+        padding-top: 10px;
+    }
+
+    .brief div + div {
+        margin-left: 8px;
+    }
+
+
+}

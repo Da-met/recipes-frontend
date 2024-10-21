@@ -1,0 +1,107 @@
+
+@media (max-width: 870px) {
+    .user-block-row {
+        width: 650px; 
+    }
+    .user-block_info {
+        margin-left: 20px;
+    }
+
+    .user-block_info {
+        max-width: 510px;
+    }
+}
+
+@media (max-width: 730px) {
+    .user-block-row {
+        width: 550px; 
+    }
+
+    .user-block_avatar img {
+        height: 150px;
+        width: 100px;
+    }
+
+    .user-block_name {
+        font-size: 18px;
+        padding-bottom: 2px;
+        
+    }
+
+    .user-block_quote {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 630px) {
+    .user-block-row {
+        width: 500px; 
+    }
+
+    .user-block_subscr button{
+        padding: 0px 10px !important;
+    }
+}
+
+@media (max-width: 540px) {
+    .user-block-row {
+        width: 450px; 
+    }
+
+    .user-block_info {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 490px) {
+    .user-block-row {
+        width: 400px; 
+    }
+}
+
+
+@media (max-width: 430px) {
+    .user-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .user-block_info {
+        width: 356px;
+        margin: 10px;
+    }
+
+    .user-block_avatar img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .user-block-row {
+        width: 350px;
+    }
+
+    .user-block_info {
+        width: 300px;
+        display: inline-block;
+    }
+
+}
+
+
+@media (max-width: 360px) {
+    .user-block-row {
+        width: 300px;
+    }
+
+    .user-block_info {
+        width: 260px;
+    }
+
+}

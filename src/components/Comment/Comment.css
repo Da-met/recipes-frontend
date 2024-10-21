@@ -1,0 +1,41 @@
+
+.comment_wrapper {
+    display: flex;
+    padding: 15px 50px 0 50px;
+    justify-content: space-between;
+}
+
+.comment {
+    display: flex;
+    padding-right: 20px ;
+}
+
+.my-comment_text {
+    font-size: 13px;
+}
+
+.my-comment_name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.my-comment_avatar img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+
+.my-comment_time {
+    display: flex;
+    padding-left: 105px;
+    font-size: 11px;
+    color: rgb(117, 117, 117);
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+

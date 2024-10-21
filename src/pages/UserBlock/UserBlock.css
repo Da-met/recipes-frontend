@@ -1,0 +1,70 @@
+.user-block-row {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 800px;
+}
+
+.user-block {
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.user-block_avatar img {
+    border-radius: 3px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    background-color: rgb(159, 159, 159);
+}
+
+.user-block_info {
+    position: relative;
+    margin-left: 40px;
+    padding: 10px 10px 60px 10px;
+    height: 80px;
+    width: 100%;
+
+    border-radius: 3px;
+    box-shadow: 0px 4px 31px 0px rgba(48, 98, 137, 0.148);
+    
+}
+
+.user-block_name {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.user-block_subscr span{
+    font-size: 14px;
+}
+
+.user-block_text {
+    display: block;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.user-block_subscr {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    bottom: 10px;
+    right: 10px;
+}
+
+.user-block_subscr div{
+    padding-right: 50px;
+    color: #1677ff;
+}
+
+.user-block_subscr button{
+    border-radius: 3px !important;
+}

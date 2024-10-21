@@ -1,0 +1,16 @@
+.recipe-ingredients-ul {
+    margin-bottom: 20px;
+}
+
+.create-recipe-ingredients {
+    margin-top: 40px;
+}
+
+.create-recipe-ingredients li {
+    display: flex;
+}
+
+.create-recipe-ingredients li + li {
+    margin-top: 15px;
+}
+

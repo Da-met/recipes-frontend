@@ -1,0 +1,67 @@
+
+
+/* :where(.css-dev-only-do-not-override-pr0fja).ant-upload-wrapper.ant-upload-picture-card-wrapper, :where(.css-dev-only-do-not-override-pr0fja).ant-upload-wrapper.ant-upload-picture-circle-wrapper {
+
+    width: 200px;
+    margin-right: 20px;
+} */
+
+.btn-img-step_wrapper {
+    margin-right: 20px;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.btn-img-step_wrapper div:first-child {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.btn-img-step_wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+
+.form-for-btnAddImg {
+    width: 150px;
+    height: 150px;
+
+    padding: 0;
+
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 1px dashed #d9d9d9;
+}
+
+.form-for-btnAddImg:hover{
+    border: 1px dashed #1677ff;
+}
+
+.form-for-btnAddImg p {
+    font-size: 14px;
+    font-family: var(--main-text);
+}
+
+.form-for-input-btnAddImg {
+    margin-right: 20px;
+}
+
+.main-btnAddImg_uploaded {
+    pointer-events: none;
+}
+
+.main-btnAddImg_uploaded img{
+    pointer-events: none;
+    
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}

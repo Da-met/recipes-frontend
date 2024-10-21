@@ -1,0 +1,63 @@
+.create-recipe-block  {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.create-recipe-block h2 {
+    color: rgb(35, 35, 35);
+}
+
+.add-step {
+    margin-top: 25px;
+    display: flex;
+}
+
+.create-recipe-steps {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.steps-list {
+    margin-bottom: 30px;
+}
+
+.btn-red-add {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    font-family: var(--main-text);
+    letter-spacing: 0.11em;
+}
+
+.btn-blue-add {
+    width: 260px;
+    font-family: var(--main-text);
+    letter-spacing: 0.07em;
+}
+
+.btn-x {
+    margin-left: 20px;
+    height: auto;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.colomns-text{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.error-text {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    top: 110px;
+}
+
+.create-recipe-titul input {
+    position: relative;
+}

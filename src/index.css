@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+
+
+:root {
+  --main-text: 'Nunito', sans-serif;
+}
+
+body {
+  margin: 0;
+  /* font-family: 'Comfortaa', cursive; */
+  font-family: var(--main-text);
+  /* font-family: 'Nunito', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+.container {
+  position: relative;
+  max-width: 1000px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul, li {
+  list-style-type: none; /* Убирает буллиты */
+}
+
+
+h2 {
+  letter-spacing: 0.03em;
+}

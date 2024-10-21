@@ -1,0 +1,36 @@
+@media (max-width: 950px) {
+    .my-comment_name {
+        font-size: 13px;
+    }
+
+    .my-comment_text {
+        font-size: 12px;
+    }
+
+    .my-comment_time {
+        font-size: 10px;
+    }
+}
+
+
+
+@media (max-width: 720px) {
+    .comment_wrapper {
+        padding: 15px 20px 0 20px;
+    }
+
+} 
+
+
+
+@media (max-width: 540px) {
+    .my-comment_avatar {
+        margin-right: 10px;
+    }
+
+
+}
+
+
+
+

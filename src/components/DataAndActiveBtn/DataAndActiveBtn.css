@@ -1,0 +1,61 @@
+.mini-card-actions button {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.mini-card-bot {
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+    justify-content: space-between;
+}
+
+.mini-card_time {
+    padding-top: 3px;
+    font-size: 10px;
+    color: rgb(96, 96, 96);
+}
+
+.mini-card_name {
+    font-size: 14px;
+}
+
+
+.mini-card_data-user {
+    margin-left: 15px;
+}
+
+
+.mini-card-avatar_user {
+    background-color: rgb(255, 136, 51);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.mini-card-avtor_wrapper {
+    display: flex;
+}
+
+.mini-card-avatar_user img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    outline: none;
+    background-color: rgb(159, 159, 159);
+}
+
+
+
+
+@media (max-width: 490px) {
+    .mini-card_name {
+        font-size: 13px;
+    }
+
+    .mini-card_time {
+        font-size: 9px;
+    }
+}
+
